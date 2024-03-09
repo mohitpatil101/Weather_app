@@ -1,0 +1,52 @@
+
+body {
+  background: linear-gradient(to bottom, #2c3e50, #3498db);
+  background-size: 100% 350%;
+  font-family: 'Roboto', sans-serif; 
+  color: #fff; 
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+
+
+.weather-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: center;
+  gap: 20px;
+}
+
+
+
+.weather-card {
+  background-color: #34495e; 
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease; 
+}
+
+.weather-card:hover {
+  transform: translateY(-5px); 
+}
+
+.weather-card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.weather-card p {
+  margin: 5px 0;
+}
+
+
+ul {
+  list-style-type: none; 
+  padding: 0;
+}
+
